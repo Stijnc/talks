@@ -1,0 +1,203 @@
+{
+    "speaker": {
+        "name": "Stijn Callebaut",
+        "bio": ""
+    },
+    "talks": [{
+            "name": "Using Kubernetes in a hybrid cloud with Azure Arc",
+            "date": "2021",
+            "event": "Cloud Native Community",
+            "abstract": "Kubernetes is growing immensely. Not only because of the open-source community around it, but also because of the wide adaption of containerized applications. The possibility to manage Kubernetes with Azure Arc is a key differentiator for Microsoft when comparing cloud providers.Azure Arc enables you to configure Kubernetes clusters located either inside or outside Azure.You can ensure portability and consistency amongst your cloud environments. let it be on - premises, hybrid, or multi - cloud.",
+            "url": "https://www.cloudnativecommunity.com/",
+            "recording": "https://youtu.be/EICrTHFfHL0"
+        }, {
+            "name": "Cybersecurity days - Multi-cloud security",
+            "date": "2021",
+            "event": "Microsoft BE",
+            "abstract": "A hybrid, multi-cloud approach that's what the market is embracing. Hence workloads will be spread across Private and Public clouds which makes it more complex from a cybersecurity perspective. This session will cover how Microsoft brings it all together to protect your workloads across clouds.",
+            "url": "https://info.microsoft.com/WE-SCITL-CATALOG-FY22-08Aug-24-Cybersecurity-Days-SRDEM82028_Catalog-Display-Page.html",
+            "recording": ""
+        }, {
+            "name": "Azure customer days",
+            "date": "2020",
+            "event": "Microsoft Corp",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        }, {
+            "name": "Who's in charge of your container image",
+            "date": "2019",
+            "event": "Techorama BE",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "My PowerShell aids",
+            "date": "2018",
+            "event": "BEPUG",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "",
+            "date": "2018",
+            "event": "Experts Live NL",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        }, {
+            "name": "Containers for IT Operations",
+            "date": "2018",
+            "event": "Experts Live US",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "Building Microsoft cloud solutions - a DevOps perspective",
+            "date": "2018",
+            "event": "Experts Live US",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "The synergy between Azure and Barracuda",
+            "date": "2017",
+            "event": "Kappa Azure Days",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "A practical approach to a PowerShell release pipeline",
+            "date": "2016",
+            "event": "System Center Universe EU",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Azure networking best practices",
+            "date": "2016",
+            "event": "System Center Universe EU",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Onboarding in OMS: Desired State Configuration - DSC",
+            "date": "2016",
+            "event": "Technet",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Onboarding in OMS: Get the job done with Azure Automation",
+            "date": "2016",
+            "event": "Technet",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Get it done with Azure Automation",
+            "date": "2016",
+            "event": "Bepug",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Azure Resource Manager 101",
+            "date": "2015",
+            "event": "System Center Universe EU",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Datacenter reporting and analysis using PowerBI",
+            "date": "2015",
+            "event": "System Center Universe EU",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Automate yourself - Service management like a boss",
+            "date": "2015",
+            "event": "ITProceed",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "Manage your Azure through Service Manager and SMA",
+            "date": "2014",
+            "event": "System Center Universe EU",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "SMA, the hybrid provisioning engine for public clouds",
+            "date": "2014",
+            "event": "IT Proceed",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+
+            "name": "System Center Summer Night - Become a masterchef in Microsoft Azure Automation",
+            "date": "2014",
+            "event": "SCUG NL",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "PowerShell Remoting",
+            "date": "2014",
+            "event": "Wintalks",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "Cloudy with a chance of IaaS",
+            "date": "2013",
+            "event": "Experts Live",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        },
+        {
+            "name": "Best of MMS",
+            "date": "2013",
+            "event": "SCUG",
+            "abstract": "",
+            "url": "",
+            "recording": ""
+        }
+    ],
+    "meta": {
+        "lastModified": "2022-04-03",
+        "version": "0.0.1"
+    }
+}
