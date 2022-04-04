@@ -1,7 +1,8 @@
 {
     "speaker": {
         "name": "Stijn Callebaut",
-        "bio": ""
+        "bio": "",
+        "repoLink": "https://github.com/stijnc/talks"
     },
     "talks": [{
             "name": "Using Kubernetes in a hybrid cloud with Azure Arc",
@@ -23,6 +24,13 @@
             "event": "Microsoft Corp",
             "abstract": "",
             "url": "",
+            "recording": ""
+        }, {
+            "name": "Git(Hub) 101",
+            "date": "2020",
+            "event": "BEPUG",
+            "abstract": "",
+            "url": "https://bepug.dev/meetup/2020/03/11/meetup/",
             "recording": ""
         }, {
             "name": "Who's in charge of your container image",
@@ -112,7 +120,7 @@
 
             "name": "Get it done with Azure Automation",
             "date": "2016",
-            "event": "Bepug",
+            "event": "BEPUG",
             "abstract": "",
             "url": "",
             "recording": ""
