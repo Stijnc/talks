@@ -1,0 +1,39 @@
+name: readme automation
+on:
+  push:
+    paths:
+      - "stijncallebaut.talks.json"
+  workflow_dispatch:
+jobs:
+  readme:
+    name: update-readme
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: retrieve talks
+      shell: pwsh
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        $talks = $(Get-Content -Path ./stijncallebaut.talks.json -Raw | ConvertFrom-Json).talks 
+        $readme = get-content -Raw -Path ./README.md 
+
+        $talksOutput = "`r`n"
+        $talksOutput += $talks | Select-Object date, event, name | Sort-Object -Descending  | ConvertTo-Html -Fragment -As table
+        $talksOutput += "`r`n"
+        $talksPattern = "(?si)<!-- TALKS START -->\r\n(.*?)\r\n<!-- TALKS END -->"
+        $talksResult = [regex]::match($readme,$talksPattern).Groups[1].Value
+        if(![string]::IsNullOrEmpty($talksOutput.trim())){
+            $talksOutput = $talksOutput
+            $readme = $readme.replace($talksResult, $talksOutput.replace('$', '$$'))
+        }
+        $readme 
+        Set-Content -Path ./profile/README.md -Value $readme -Force
+        
+    - name: Commit profile README.MD
+      run : |
+          git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit --allow-empty -m "update list of talks"
+            git push
