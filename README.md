@@ -6,7 +6,7 @@ The collection consolidates talks, abstracts, sample code, etc from conferences,
 
 ## Speaking engagements
 
-All talks are consilidated in `stijncallebaut.talks.yaml`,
+All talks are consolidated in `stijncallebaut.talks.yaml`,
 
 <!-- TALKS START -->
 
