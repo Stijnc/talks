@@ -1,4 +1,4 @@
-name: readme automation
+name: readme and site repo automation
 on:
   push:
     paths:
@@ -37,3 +37,10 @@ jobs:
             git add .
             git commit --allow-empty -m "update list of talks"
             git push
+    - name: Repository Dispatch
+      uses: peter-evans/repository-dispatch@v2
+      with:
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        repository: stijnc/personal-site
+        event-type: my-talks
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
