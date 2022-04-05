@@ -11,28 +11,32 @@
             "abstract": "Kubernetes is growing immensely. Not only because of the open-source community around it, but also because of the wide adaption of containerized applications. The possibility to manage Kubernetes with Azure Arc is a key differentiator for Microsoft when comparing cloud providers.Azure Arc enables you to configure Kubernetes clusters located either inside or outside Azure.You can ensure portability and consistency amongst your cloud environments. let it be on - premises, hybrid, or multi - cloud.",
             "url": "https://www.cloudnativecommunity.com/",
             "recording": "https://youtu.be/EICrTHFfHL0"
-        }, {
+        },
+        {
             "name": "Cybersecurity days - Multi-cloud security",
             "date": "2021",
             "event": "Microsoft BE",
             "abstract": "A hybrid, multi-cloud approach that's what the market is embracing. Hence workloads will be spread across Private and Public clouds which makes it more complex from a cybersecurity perspective. This session will cover how Microsoft brings it all together to protect your workloads across clouds.",
             "url": "https://info.microsoft.com/WE-SCITL-CATALOG-FY22-08Aug-24-Cybersecurity-Days-SRDEM82028_Catalog-Display-Page.html",
             "recording": ""
-        }, {
+        },
+        {
             "name": "Delegate to shift complexity",
             "date": "2021",
             "event": "DexMach - KPMG",
             "abstract": "Transforming business services to leverage cloud capabilities is on nearly every CEO’s agenda. KPMG and DexMach experts navigate you through the key challenges and complexities they faced during cloud transformation projects.In two separate sessions, they discussed migrating towards a modern customer data architecture as well as delegating to shift complexity. KPMG’ s and DexMach’ s latest joint cloud transformation solution offers a large portfolio of embedded solutions with two major benefits for organizations during their cloud journey: cost control and innovation opportunities.",
             "url": "https://home.kpmg/be/en/home/insights/2021/03/adv-kpmg-and-dexmach-webinar-on-cloud-transformation.html",
             "recording": "https://home.kpmg/be/en/home/insights/2021/03/adv-kpmg-and-dexmach-webinar-on-cloud-transformation.html"
-        }, {
+        },
+        {
             "name": "Azure customer days",
             "date": "2020",
             "event": "Microsoft Corp",
             "abstract": "",
             "url": "",
             "recording": ""
-        }, {
+        },
+        {
             "name": "Git(Hub) 101",
             "date": "2020",
             "event": "BEPUG",
@@ -56,13 +60,6 @@
             "recording": ""
         },
         {
-            "name": "",
-            "date": "2018",
-            "event": "Experts Live NL",
-            "abstract": "",
-            "url": "",
-            "recording": ""
-        }, {
             "name": "Containers for IT Operations: A hands-on tour",
             "date": "2018",
             "event": "Experts Live US",
