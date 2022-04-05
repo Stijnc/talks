@@ -19,6 +19,13 @@
             "url": "https://info.microsoft.com/WE-SCITL-CATALOG-FY22-08Aug-24-Cybersecurity-Days-SRDEM82028_Catalog-Display-Page.html",
             "recording": ""
         }, {
+            "name": "Delegate to shift complexity",
+            "date": "2021",
+            "event": "DexMach - KPMG",
+            "abstract": "Transforming business services to leverage cloud capabilities is on nearly every CEO’s agenda. KPMG and DexMach experts navigate you through the key challenges and complexities they faced during cloud transformation projects.In two separate sessions, they discussed migrating towards a modern customer data architecture as well as delegating to shift complexity. KPMG’ s and DexMach’ s latest joint cloud transformation solution offers a large portfolio of embedded solutions with two major benefits for organizations during their cloud journey: cost control and innovation opportunities.",
+            "url": "https://home.kpmg/be/en/home/insights/2021/03/adv-kpmg-and-dexmach-webinar-on-cloud-transformation.html",
+            "recording": "https://home.kpmg/be/en/home/insights/2021/03/adv-kpmg-and-dexmach-webinar-on-cloud-transformation.html"
+        }, {
             "name": "Azure customer days",
             "date": "2020",
             "event": "Microsoft Corp",
@@ -36,8 +43,8 @@
             "name": "Who's in charge of your container image",
             "date": "2019",
             "event": "Techorama BE",
-            "abstract": "",
-            "url": "",
+            "abstract": "During this session we will dive a bit deeper into the role of IT operations in a cloud container world. Who 's role and responsibility is it to ensure container image integrity and how can we leverage existing Azure tooling to help us in keeping base images up to date. Let 's shift patching and security ' left ' as it becomes a shared responsibility.",
+            "url": "https://techoramabelgium2019.sched.com/event/KI3F/whos-in-charge-of-your-container-image",
             "recording": ""
         },
         {
@@ -45,7 +52,7 @@
             "date": "2018",
             "event": "BEPUG",
             "abstract": "",
-            "url": "",
+            "url": "https://bepug.dev/meetup/2018/06/07/meetup/",
             "recording": ""
         },
         {
@@ -56,19 +63,46 @@
             "url": "",
             "recording": ""
         }, {
-            "name": "Containers for IT Operations",
+            "name": "Containers for IT Operations: A hands-on tour",
             "date": "2018",
             "event": "Experts Live US",
-            "abstract": "",
-            "url": "",
+            "abstract": "Containers are the new kid on the block for application management. Do you want to better understand the impact of containers on IT Operations? We will take a hands-on by deploying a containerized application, including demonstrating orchestration and deployment with Docker and Kubernetes...with a strong IT operations focus. If learning Docker is on your 2018 to-do list, then this session is for you!",
+            "url": "https://elus18.sched.com/event/D12e/containers-for-it-operations-a-hands-on-tour",
             "recording": ""
         },
         {
             "name": "Building Microsoft cloud solutions - a DevOps perspective",
             "date": "2018",
             "event": "Experts Live US",
-            "abstract": "",
-            "url": "",
+            "abstract": "Automation is a key element in creating valuable services in the cloud and on-premise. Different tools and engines are available, each with a specific target usage. The integration makes automation valuable for the organization is a mindset/approach that goes in line with DevOps principles. During this session, we will demonstrate key DevOps tooling and concepts, like continuous integration & deployment, in developing and deploying solutions on Microsoft Azure.",
+            "url": "https://elus18.sched.com/event/D12S/building-microsoft-cloud-solutions-a-devops-perspective",
+            "recording": ""
+        },
+        {
+
+            "name": "A practical approach to a PowerShell release pipeline",
+            "date": "2017",
+            "event": "FRPSUG",
+            "abstract": "Stijn expliquera qu'est-ce un release pipeline et discutera des avantages que cela apporte. Stijn nous demontrera comment mettre en place un pipeline en utilisant des techniques PowerShell pour tester et deployer des runbooks dans Azure Automation.",
+            "url": "https://frpsug.com/2017/02/26/FrPSUG07-ReleasePipeline/",
+            "recording": "https://www.youtube.com/watch?v=WJ140S4mCfM"
+        },
+        {
+
+            "name": "Building customer solutions on Microsoft services - Cancelled",
+            "date": "2017",
+            "event": "Experts Live EU",
+            "abstract": "During this session we walk through the building blocks of building customer solutions in the cloud. We have a rich set of tools available (ARM, Configuration Mgmt tools like PS DSC and there are different entries to start the development of the solutions. Solution components, approach, principles and note-from-the-field are discussed and demonstrated.",
+            "url": "https://expertsliveeurope2017.sched.com/event/AH9i/session-cancelled-building-customer-solutions-on-microsoft-services-session-cancelled",
+            "recording": ""
+        },
+        {
+
+            "name": "Push the right button and win Marcel's Tesla - Cancelled",
+            "date": "2017",
+            "event": "Experts Live EU",
+            "abstract": "Automation is a key element in creating valuable services in the cloud and on-premise. We take automation to the top during this session and demonstrate sample development in a quiz setup. Interactive questions and answers, correct answers equals a button click. After every button we have an automation flow ready that will be executed by the button click. Every automation will be explained and detailed. Targets and tools: Microsoft Azure, Azure Automation, ARM templates and more!",
+            "url": "https://expertsliveeurope2017.sched.com/event/AH9H/session-cancelled-push-the-right-button-and-win-marcels-tesla-session-cancelled",
             "recording": ""
         },
         {
@@ -87,7 +121,7 @@
             "event": "System Center Universe EU",
             "abstract": "",
             "url": "",
-            "recording": ""
+            "recording": "https://vimeo.com/187795850"
         },
         {
 
@@ -96,7 +130,7 @@
             "event": "System Center Universe EU",
             "abstract": "",
             "url": "",
-            "recording": ""
+            "recording": "https://vimeo.com/188991729"
         },
         {
 
@@ -132,7 +166,7 @@
             "event": "System Center Universe EU",
             "abstract": "",
             "url": "",
-            "recording": ""
+            "recording": "https://vimeo.com/142006870"
         },
         {
 
@@ -141,7 +175,7 @@
             "event": "System Center Universe EU",
             "abstract": "",
             "url": "",
-            "recording": ""
+            "recording": "https://vimeo.com/142006871"
         },
         {
 
@@ -190,8 +224,8 @@
         {
             "name": "Cloudy with a chance of IaaS",
             "date": "2013",
-            "event": "Experts Live",
-            "abstract": "",
+            "event": "Experts Live NL",
+            "abstract": "Microsoft provides a consistent Cloud OS but how consistent is the deployment of these in a public or private cloud scenario? The lack of process integration, supply of various portals, too many steps, too many clicks! Service Manager provides an interface that allows Cloud OS. On a standard and automated way After going through change management process VMs in public (Azure) or private cloud (SCVMM) provisioned. All this on the assumption Cafeteria, standardization and automation of your public or private cloud.",
             "url": "",
             "recording": ""
         },
