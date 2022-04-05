@@ -8,3 +8,8 @@ The collection consolidates talks, abstracts, sample code, etc from conferences,
 
 All talks are consilidated in `stijncallebaut.talks.yaml`,
 
+<!-- TALKS START -->
+
+TALKS
+
+<!-- TALKS END -->
